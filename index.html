@@ -387,6 +387,25 @@ $eventStore->commit();</code></pre>
 </section>
 
 <section>
+    <h2>WHY ???</h2>
+</section>
+
+<section>
+    <h2>Consider an online shop with cart</h2>
+    <img src="assets/img/cart-with-events.png"/>
+</section>
+
+<section>
+    <h2>A structural view of an order</h2>
+    <img src="assets/img/cart-model.png"/>
+</section>
+
+<section>
+    <h2>New task</h2>
+    <p>I need all item that were removed from the cart 5 mins before checkout.</p>
+</section>
+
+<section>
     <h2>Event-Sourcing Pros</h2>
     <p class="fragment" data-fragment-index="1">Append only (very fast)</p>
     <p class="fragment" data-fragment-index="2">Immutable</p>
